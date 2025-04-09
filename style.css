@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+/* Smooth transition for button hover */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Keyframes for image animation */
+#animatedImage {
+  width: 150px;
+  height: 150px;
+  transition: transform 1s ease;
+}
+
+/* Animation when the image is clicked */
+#animatedImage.animate {
+  transform: rotate(360deg);
+}
+
+/* Styling for the container */
+#imageContainer {
+  margin-top: 20px;
+  text-align: center;
+}
